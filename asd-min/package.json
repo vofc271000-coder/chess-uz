@@ -1,0 +1,12 @@
+{
+  "name": "fullstack-chess-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack Chess platform with real-time multiplayer, AI, and tournament-grade rules",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "start:server": "cd server && npm run dev",
+    "start:client": "cd client && npm run dev"
+  }
+}
+
